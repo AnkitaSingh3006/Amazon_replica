@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+#nav div{
+    display: inline-block;
+    float: left;
+    background-color: black;
+    height: 40px;
+}
+.menu img{
+    width: 30px;
+}
+.logo img{
+    width: 100px;
+}
+.btn img{
+    width: 30px;
+}
+#lang img{
+    width: 30px;
+}
+
+#order{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cart img{
+    width: 40px;
+}
+
