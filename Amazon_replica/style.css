@@ -60,10 +60,11 @@
 }
 
 /*mid-upper-portion*/
-
+.mid-upper-part{
+    border: 1px solid white;
+}
 
 
 /*lower part of header*/
-.lower-part{
-    width: 100%;
-}
+
+
