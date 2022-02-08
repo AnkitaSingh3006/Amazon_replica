@@ -29,6 +29,38 @@
     background-color:#131921;
     color: white;
 }
+/*left-upper-portion*/
+
+.logo{
+    width: 120px;
+    height: 45px;
+    float: left;
+    position: relative;
+    left: 12px;
+    top:8px;
+    border: 1px solid white;
+    
+}
+.logo img{
+    width: 110px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.loc{
+    width: 150px;
+    height: 45px;
+    float: left;
+    position: relative;
+    left: 20px;
+    top: 8px;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+
+}
+
+/*mid-upper-portion*/
+
 
 
 /*lower part of header*/
