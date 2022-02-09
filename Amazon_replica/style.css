@@ -7,25 +7,25 @@
 /*upper part of header*/
 .upper-part{
     width: 100%;
-    height: 100%;
+    height: 55px;
 }
 .left-upper-part{
-    width: 300px;
-    height: 60px;
+    width: 380px;
+    height: 55px;
     float: left;
     background-color:#131921;
     color: white;
 }
 .mid-upper-part{
     width: calc(100% - 700px);
-    height: 60px;
+    height: 55px;
     float: left;
     background-color: #131921;
     color: white;
 }
 .right-upper-part{
-    width: 400px;
-    height: 60px;
+    width: 320px;
+    height: 55px;
     float: left;
     background-color:#131921;
     color: white;
@@ -33,81 +33,111 @@
 /*left-upper-portion*/
 
 .logo{
-    width: 120px;
-    height: 45px;
+    width: 50%;
+    height: 55px;
     float: left;
-    position: relative;
-    left: 12px;
-    top:8px;   
-}
-.logo:hover{
-    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    
 }
 .logo img{
-    width: 110px;
-    padding-left: 5px;
-    padding-top: 5px;
+    width: 100px;
+    align-items: center;
+    vertical-align: middle;
 }
 
 .loc{
-    width: 150px;
-    height: 45px;
+    width: 50%;
+    height: 55px;
     float: left;
-    position: relative;
-    left: 20px;
-    top: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-    padding: 20x;
-
+    
 }
-.loc:hover{
-    border: 1px solid white;
+.loc1{
+    float: left;
+    width: 20px;
+    height: 50px;  
+}
+.loc2{
+    float: left;
+    width: 150px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    padding-top: 10px;
+}
+
+
+a[target]{
+    color:white;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 
 /*mid-upper-portion*/
 .wrapper{
     width: 650px;
-    height: 45px;
+    height: 55px;
     border: 1px solid white;
-    position: relative;
-    top: 8px;
-    left: 8px;
 }
 
 /*right-upper-portion*/
 
 .lang{
-    width: 100px;
+    width: 50px;
+    height: 55px;
     float: left;
-    border: 1px solid white;
+    padding: 10px;
+}
+.lang img{
+    width: 30px;
 }
 .account{
-    width: 100px;
+    width: 120px;
+    height: 55px;
     float:left;
-    border:1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding: 10px;
 }
 .order{
-    width: 100px;
+    width: 80px;
+    height: 55px;
     float:left;
-    border: 1px solid white;
+    font-size: small;
+    padding: 10px;
 }
 .cart{
-    border: 1px solid white;
+    width: 70px;
+    height: 55px;
+    float: left;
+    font-size: smaller;
+    padding: 5px;
+}
+.cart img{
+    width: 30px;
 }
 /*lower part of header*/
 
 .lower-part{
     width: 100%;
-    height: 100%;
+    height: 40px;
     background-color: #232f3e;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
 }
-a[target]
-{
-    color: white;
-    text-decoration: none;
-    padding: 5px;
+.left-lower-part{
+    width: 4%;
+    height: 40px;
+    float: left;
+    padding: 8px;
 }
+.mid-lower-part{
+    width: 96%;
+    height: 40px;
+    float: left;
+    padding: 10px;
+
+}
+
+
