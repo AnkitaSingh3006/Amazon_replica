@@ -55,13 +55,12 @@
 }
 .loc img{
     width: 20px;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 .loc1{
     float: left;
     width: 20px;
     height: 50px;
-    padding-top: 5px;  
 }
 .loc2{
     float: left;
@@ -71,8 +70,6 @@
     font-size: smaller;
     padding-top: 10px;
 }
-
-
 a[target]{
     color:white;
     text-decoration: none;
@@ -104,15 +101,12 @@ a[target]{
     height: 40px;
 }
 .search-btn{
-    width: 50px;
-    height: 55px;
     float: left;
     padding-top: 6px;
 }
 .search-btn img{
     width: 100%;
     height: 33px;
-    border: none;
     border: none;
     padding: 5px;
 }
@@ -178,74 +172,45 @@ a[target]{
     padding-top: 10px;
 }
 .mlp-seller{
-    width: 15px;
-    height: 40px;
-    padding: 3px;
-    
+    padding: 3px;    
 }
 .mlp-mobiles{
-    width: 10px;
-    height: 40px;
     padding: 3px;
 }
 .mlp-deals{
-    width: 10px;
-    height: 40px;
     padding: 3px;
 }
 .mlp-service{
-    width: 10px;
-    height: 40px;
     padding: 3px;
 }
 .mlp-electronics{
-    width: 10px;
-    height: 40px;
     padding: 3px;
 }
 .mlp-books{
-    width: 10px;
-    height: 40px;
     padding: 3px;
 }
 .mlp-prime{
-    width: 10px;
-    height: 40px;
     padding: 3px;
 }
 .mlp-fashion{
-    width: 10px;
-    height: 40px;
     padding: 3px;
 }
 .mlp-release{
-    width: 10px;
-    height: 40px;
     padding: 3px;
 }
 .mlp-home{
-    width: 10px;
-    height: 40px;
     padding: 3px;
 }
 .mlp-pay{
-    width: 10px;
-    height: 40px;
     padding: 3px;
 }
 .mlp-computer{
-    width: 10px;
-    height: 40px;
     padding: 3px;
 }
 .mlp-coupans{
-    width: 10px;
-    height: 40px;
     padding: 3px;
 }
 .mlp-toys{
-    width: 10px;
-    height: 40px;
     padding: 3px;
 }
 
@@ -272,7 +237,7 @@ section{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     text-align: center;
-    padding-top: 18px;
+    padding: 18px;
 }
 
 /*footer2*/
@@ -284,44 +249,47 @@ section{
     background-color: #232f3e;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 1px solid white;
+    display: grid;
+    place-items: center;
+    font-size: smaller;
+    border: 2px solid red;
 }
-.default{
-    font-size: medium;
-    font-weight: bold;
+.footer2-parent{
+    width: 80%;
+    height: 300px;
+    border: 2px solid white;
 }
-ul li{
+.footer2-parent ul li{
     list-style-type: none;
-    padding-top: 8px;
+    line-height: 20px;
 }
-.footer-left{
-    width: 350px;
+.footer2-child1{
+    width: 25%;
     height: 300px;
     float: left;
-    padding-top: 50px;
-    padding-left: 150px;
-    font-size: 15px;
+    padding: 50px;
+    border: 2px solid yellow;
 }
-.footer-mid1{
-    width: 350px;
+.footer2-child2{
+    width: 25%;
     height: 300px;
     float: left;
-    padding-top: 50px;
-    padding-left: 50px;
-    font-size: 15px;
+    padding: 50px;
+    border: 2px solid violet;
 }
-.footer-mid2{
-    width: 350px;
+.footer2-child3{
+    width: 25%;
     height: 300px;
     float: left;
-    padding-top: 50px;
-    font-size: 15px;
+    padding: 50px;
+    border: 2px solid grey;
 }
-.footer-right{
-    width:calc(100% - 1050px);
+.footer2-child4{
+    width: 25%;
     height: 300px;
     float: left;
-    padding-top: 50px;
-    font-size: 15px;
+    padding: 50px;
+    border: 2px solid brown
 }
 
 /*footer3*/
@@ -392,17 +360,10 @@ ul li{
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    border: 2px solid white;
 }
-table{
-    width: calc(100% - 100px);
-    height:50px;
-}
-td{
-    padding-left:150px;
-    padding-top: 30px;
-    line-height: 14px;
-}
+
+
 
 /*footer5*/
 
@@ -415,7 +376,7 @@ td{
     font-size: 12px;
     font-weight: bold;
     text-align: center;
-    padding-top: 12px;
+    padding: 20px;
 }
 .footer5 ul li{
     display: inline;
