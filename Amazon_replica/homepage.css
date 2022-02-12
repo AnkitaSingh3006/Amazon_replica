@@ -292,7 +292,7 @@ section{
     width: 100%;
     height: 150px;
     background-color: #232f3e;
-    color: #DDD;;
+    color: #DDD;
 }
 .footerbase
 {
@@ -303,11 +303,14 @@ section{
     width: 50%;
     height: 100px;
     float: left;
+    position: relative;
 }
 .footerlogo img{
-    width: 600px;
-    padding-top: 52px;
-    padding-left: 75%;
+    width:80px;
+    height: 30px;
+    position: absolute;
+    top: 45px;
+    left: 520px;
 }
 .language
 {
@@ -329,9 +332,8 @@ section{
 .language img{
     width: 18px;
     height: 22px;
-    padding-top: 6px;
-    border: none;
-    vertical-align: text-bottom;
+    padding-top: 8px;
+
 }
 .country{
     width: 100%;
@@ -354,7 +356,45 @@ section{
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid white;
+    font-size: 10px;
+    line-height: 15px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+}
+.footer4-parent{
+    width:80%;
+    height: 120px;
+}
+.footer4-1stchild{
+    width: 20%;
+    height: 120px;
+    float: left;
+    padding: 5px;
+}
+.footer4-2ndchild{
+    width: 20%;
+    height: 120px;
+    float: left;
+    padding: 5px; 
+}
+.footer4-3rdchild{
+    width: 20%;
+    height: 120px;
+    float: left;
+    padding: 5px;
+}
+.footer4-4thchild{
+    width: 20%;
+    height: 120px;
+    float: left;
+    padding: 5px;
+}
+.footer4-5thchild{
+    width: 20%;
+    height: 120px;
+    float: left;
+    padding: 5px;
 }
 
 
