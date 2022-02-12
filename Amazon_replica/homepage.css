@@ -311,6 +311,7 @@ section{
     position: absolute;
     top: 45px;
     left: 520px;
+    align-items: center;
 }
 .language
 {
