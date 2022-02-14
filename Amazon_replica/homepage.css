@@ -6,6 +6,13 @@
 /*------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------*/
 /*upper part of header*/
+/*.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 20;
+}*/
+
 .upper-part{
     width: 100%;
     height: 55px;
@@ -218,10 +225,153 @@ a[target]{
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /* section part */
-section{
+.section{
     width: 100%;
-    height: 100px;
+    height: 700px;
+    color: black;
+    position: relative;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
+.carousel img{
+    width: 100%;
+    height: 700px;
+}
+.card{
+    width: 100%;
+    height: 410px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color:transparent;
+}
+.card-1stchild{
+    width: 320px;
+    height: 390px;
+    float: left;
+    text-align: center;
+    margin: 5px;
+    background-color: white;
+}
+.grandchild1{
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+}
+.grandchild2{
+    width: 100%;
+    height:calc(100% - 80px) ;
+}
+.a{
+    width: 100%;
+    height: 150px;
+    font-size: small;
+    line-height: 20px;
+}
+.aa{
+    width: 45%;
+    height: 120px;
+    float:left;
+    margin: 5px;
+}
+.aa img{
+    width: 100%;
+    height: 100%;
+}
+.ab{
+    width: 45%;
+    height: 120px;
+    float:left;
+    margin: 5px;
+}
+.ab img{
+    width: 100%;
+    height: 100%;
+}
+.b{
+    width: 100%;
+    height: 150px;
+    font-size: small;
+    line-height: 20px;
+}
+.ba{
+    width: 45%;
+    height: 120px;
+    float:left;
+    margin: 5px;
+}
+.ba img{
+    width: 100%;
+    height: 100%;
+}
+.bb{
+    width: 45%;
+    height: 120px;
+    float:left;
+    margin: 5px;
+}
+.bb img{
+    width: 100%;
+    height: 100%;
+}
+.grandchild3{
+    width: 100%;
+    height: 30px;
+    font-size: small;
+}
+.grandchild3 a{
+    text-decoration: none;
+    color: rgb(47, 143, 143);
+}
+
+.card-2ndchild{
+    width: 310px;
+    height: 390px;
+    float: left;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+}
+.grandchild-a{
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+}
+.grandchild-b{
+    width: 100%;
+    height:calc(100% - 80px) ;
+}
+.grandchild-b img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.grandchild-c{
+    width: 100%;
+    height: 30px;
+    font-size: small;
+}
+.grandchild-c a{
+    text-decoration: none;
+    color:rgb(47, 143, 143) ;
+}
+.card-3rdchild{
+    width: 310px;
+    height: 390px;
+    float: left;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+}
+.card-4thchild{
+    width:calc(100% - 990px);
+    height: 390px;
+    float: left;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+}
+
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -404,7 +554,7 @@ section{
 
 .footer5{
     width: 100%;
-    height: 50px;
+    height: 55px;
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
