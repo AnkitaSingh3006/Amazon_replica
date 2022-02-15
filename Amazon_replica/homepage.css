@@ -227,7 +227,7 @@ a[target]{
 /* section part */
 .section{
     width: 100%;
-    height: 700px;
+    height: 1115px;
     color: black;
     position: relative;
     margin: 0 auto;
@@ -241,9 +241,10 @@ a[target]{
     width: 100%;
     height: 410px;
     position: absolute;
-    bottom: 0;
+    bottom: 400px;
     left: 0;
     background-color:transparent;
+    
 }
 .card-1stchild{
     width: 320px;
@@ -371,10 +372,48 @@ a[target]{
     background-color: white;
     text-align: center;
 }
+.product{
+    width: 100%;
+    height: 415px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(214, 214, 224);
+}
+.card2{
+    width: 100%;
+    height: 410px;
+    background: transparent;
+}
+.card2child1{
+    width: calc(100% - 700px);
+    height: 390px;
+    float: left;
+    margin: 5px;
+}
+.card2child1 img{
+    width: 100%;
+    height: 100%;
+}
+.card2child2{
+    width: 320px;
+    height: 390px;
+    float: left;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+}
+.card2child3{
+    width: 340px;
+    height: 390px;
+    float: left;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+}
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 /* footer part */
 
 /*footer1*/
