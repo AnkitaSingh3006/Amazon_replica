@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form page</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="upper-part">
+            <div class="left-upper-part">
+                <div class="logo"><a href="http://127.0.0.1:5500/homepage.html" target="_self">
+                        <img src="img/logo.png"><b>.in</b></a>
+                </div>
+                <div class="loc">
+                    <div class="loc1"><img src="img/loc.png"></div>
+                    <div class="loc2">Hello<br><b>Select your address</b></div>
+                </div>
+            </div>
+            <div class="mid-upper-part">
+                <div class="dropdown">All</div>
+                <div class="searchbox">
+                    <input type="text" class="search">
+                </div>
+                <div class="search-btn"><button class="btn"><img src="img/search.png"></button></div>
+            </div>
+
+            <div class="right-upper-part">
+                <div class="lang"><img src="img/flag.png"></div>
+                <div class="account">Hello ,Sigh in<br><b>Account & Lists</b></div>
+                <div class="order"><a href="#" target="_self">Returns<br><b>& Orders</b></a></div>
+                <div class="cart"><a href="#" target="_self"><img src="img/cart.png">Cart</a></div>
+            </div>
+        </div>
+        <div class="lower-part">
+            <div class="left-lower-part"><a href="#" target="_self">&#9776 All</a></div>
+            <div class="mid-lower-part">
+                <a href="#" target="_self" class="mlp-seller">Best Sellers</a>
+                <a href="#" target="_self" class="mlp-mobiles">Mobiles</a>
+                <a href="#" target="_self" class="mlp-deals">Today's Deals</a>
+                <a href="#" target="_self" class="mlp-service">Customer Services</a>
+                <a href="#" target="_self" class="mlp-electronics">Electronics</a>
+                <a href="#" target="_self" class="mlp-books">Books</a>
+                <a href="#" target="_self" class="mlp-prime">Prime</a>
+                <a href="#" target="_self" class="mlp-fashion">Fashion</a>
+                <a href="#" target="_self" class="mlp-release">New Releases</a>
+                <a href="#" target="_self" class="mlp-home">Home & Kitchen</a>
+                <a href="#" target="_self" class="mlp-pay">Amazon Pay</a>
+                <a href="#" target="_self" class="mlp-computer">Computers</a>
+                <a href="#" target="_self" class="mlp-coupans">Coupans</a>
+                <a href="#" target="_self" class="mlp-toys">Toys & Games</a>
+            </div>
+        </div>
+    </header>
+    <div class="form">
+        <form class="formcontainer">
+            <p class="address">Your Account > Your Address ><span class="highlight"> New Address</span></p><br>
+            <h3>Add a new address</h3><br>
+            <p class="addressdescription">Or pick up your packages at your convenience from our self-service locations.To add an Amazon Pickup
+                Point, click <a href="#">here.</a></p><br>
+
+             <label for="region">Country/Region</label><br>
+             <select name="region" id="country" class="select">
+                 <option value="India">India</option>
+             </select>   <br><br>
+
+             <label for="Fname">Full Name</label><br>
+             <input type="text"><br><br>
+
+             <label for="number">Mobile Number</label><br>
+             <input type="text" placeholder="10 digit number without prefixes"  pattern="[0-9] {10}"><br><br>
+             <p class="addressdescription"> May be used to asset delivery </p><br>
+
+             <label for="PIN">PIN Code</label><br>
+             <input type="text" placeholder="6 digits [0-9] PIN Code" pattern="[0-9] {10}"><br><br>
+
+             <label for="Address1">Flat, House no., Building, Company, Apartment</label><br>
+             <input type="text"><br><br>
+
+             <label for="Address2">Area, Colony, Street, Sector, Village</label><br>
+             <input type="text"><br><br>
+
+             <label for="landmark">Landmark</label><br>
+             <input type="text" placeholder="E.g. Near AIIMS Flyover, Behind Regal Cinema, etc."><br><br>
+
+             <label for="city">Town/City</label><br>
+             <input type="text"><br><br>
+
+             <label for="state">State/Province/Region</label><br>
+             <select name="state" id="province" class="select">
+                 <option value="Select state">Select state</option>
+             </select><br><br>
+
+             <h3>Add delivery instruction</h3><br>
+             <p class="addressdescription">Preferences are used to plan your delivery. However, shipments can sometimes arrive early or later than planned.</p><br>
+        
+             <label for="addresstype">Address Type</label><br>
+             <select name="addresstype" id="addresstype" class="select">
+                 <option value="Select state">Select an Address Type</option>
+             </select><br><br><br>
+
+            <button class="button">Add address</button>
+
+               </form>
+    </div>
+
+</body>
+
+</html>
