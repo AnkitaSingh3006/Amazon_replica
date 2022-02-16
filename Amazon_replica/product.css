@@ -7,12 +7,12 @@
 .product{
     width: 100%;
     height: 1000px;
-    border: 2px solid red;
 }
+/* left part*/
+
 .leftpart{
     width: 400px;
     height: 600px;
-    border: 2px solid red;
     float:left;
     margin: 5px;
 }
@@ -20,7 +20,6 @@
     width: 45px;
     height: 430px;
     float: left;
-    border: 1px solid green;
     margin: 10px;
 }
 .leftpart-1stchild ul{
@@ -39,7 +38,6 @@
     width: calc(100% - 95px);
     height: 550px;
     float: right;
-    border: 1px solid green;
     margin: 10px;
     font-size: small;
     text-align: center;
@@ -48,19 +46,115 @@
 }
 .leftpart-2ndchild img{
     width: 80%;
-    height: 90%;
+    height: 93%;
 }
+/* center part*/
+
 .centerpart{
     width: calc(100% - 700px);
-    height: 50px;
-    border: 2px solid red;
+    height: 800px;
     float: left;
     margin: 5px;
 }
+.description{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    line-height: 28px;
+}
+.description p{
+    font-size: larger;
+}
+.desp{
+    color: rgb(71, 172, 240);
+    font-size: small;
+}
+.desp img{
+    width: 20px;
+    height: 20px;
+}
+.rw ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: small;
+    color:rgb(71, 172, 240) ;
+}
+.rw img{
+    width: 30px;
+    height: 30px;
+}
+.product-description{
+    width: 100%;
+    height: 500px;
+    line-height: 20px;
+    padding: 10px;
+}
+.product-description h4{
+    color: brown;
+}
+.product-description p{
+    font-size: small;
+}
+.product-description ul li{
+    font-size: small;
+    list-style-type: circle;
+}
+/*right part*/
+
 .rightpart{
     width: 270px;
-    height: 50px;
-    border: 2px solid red;
+    height: 300px;
     float :left;
     margin: 5px;
+    padding: 10px;
+}
+.upperchild{
+    width: 100%;
+    height: 33px;
+}
+.share{
+    width: 45px;
+    height: 30px;
+    float:left;
+    margin-left: 40px;
+    padding: 5px;
+}
+.share a[href]{
+    text-decoration: none;
+    color: black;
+}
+.socialmedia{
+    width: calc(100% - 100px);
+    height: 30px;
+    float: right;
+}
+.socialmedia ul li{
+    display: inline;
+}
+.socialmedia ul li img{
+    width: 25px;
+    height: 25px;
+}
+.status{
+    width: 100%;
+    height: 150px;
+    border: 1px solid lightgray;
+    padding: 8px;
+    text-align: center;
+    line-height: 20px;
+}
+.status h4{
+    color: brown;
+}
+.status p{
+    font-size: small;
+}
+.status .btn{
+    width: 80%;
+    height: 25px;
+    margin: 20px;
+    text-align: left;
+    padding: 3px;
+    cursor: pointer;
 }
