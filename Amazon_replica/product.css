@@ -6,7 +6,13 @@
 }
 .product{
     width: 100%;
-    height: 1000px;
+    height: auto;
+}
+
+/*upperpart*/
+.upperpart{
+    width: 100%;
+    height: 880px;
 }
 /* left part*/
 
@@ -14,20 +20,19 @@
     width: 400px;
     height: 600px;
     float:left;
-    margin: 5px;
+    padding: 20px;
 }
 .leftpart-1stchild{
-    width: 45px;
-    height: 430px;
+    width: 50px;
+    height: 400px;
     float: left;
-    margin: 10px;
+    text-align: center;
 }
 .leftpart-1stchild ul{
     list-style: none;
     font-size: 8px;
     font-weight: bold;
-    padding: 2px;
-    line-height: 20px;
+    line-height: 10px;
     color: rgb(66, 73, 80);
 }
 .leftpart-1stchild ul img{
@@ -38,10 +43,8 @@
     width: calc(100% - 95px);
     height: 550px;
     float: right;
-    margin: 10px;
     font-size: small;
     text-align: center;
-    line-height: 30px;
     color: rgb(66, 73, 80);
 }
 .leftpart-2ndchild img{
@@ -52,13 +55,12 @@
 
 .centerpart{
     width: calc(100% - 700px);
-    height: 800px;
+    height: 865px;
     float: left;
-    margin: 5px;
 }
 .description{
     width: 100%;
-    height: 200px;
+    height: 260px;
     padding: 10px;
     line-height: 28px;
 }
@@ -66,7 +68,7 @@
     font-size: larger;
 }
 .desp{
-    color: rgb(71, 172, 240);
+    color: rgb(0, 105, 210);
     font-size: small;
 }
 .desp img{
@@ -78,7 +80,7 @@
     display: inline-block;
     padding: 15px;
     font-size: small;
-    color:rgb(71, 172, 240) ;
+    color:rgb(0, 105, 210) ;
 }
 .rw img{
     width: 30px;
@@ -86,9 +88,12 @@
 }
 .product-description{
     width: 100%;
-    height: 500px;
+    height: 600px;
     line-height: 20px;
-    padding: 10px;
+    padding: 8px;
+}
+.product-description{
+    line-height: 25px;
 }
 .product-description h4{
     color: brown;
@@ -100,13 +105,23 @@
     font-size: small;
     list-style-type: circle;
 }
+.newmodel img{
+    width: 80px;
+    height: 90px;
+}
+.newmodel{
+    float: left;
+}
+.newmodeldes{
+    font-size: small;
+    color: rgb(0, 105, 210);
+}
 /*right part*/
 
 .rightpart{
-    width: 270px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     float :left;
-    margin: 5px;
     padding: 10px;
 }
 .upperchild{
@@ -114,11 +129,11 @@
     height: 33px;
 }
 .share{
-    width: 45px;
+    width: 100px;
     height: 30px;
     float:left;
-    margin-left: 40px;
     padding: 5px;
+    text-align: right;
 }
 .share a[href]{
     text-decoration: none;
@@ -153,8 +168,44 @@
 .status .btn{
     width: 80%;
     height: 25px;
-    margin: 20px;
     text-align: left;
     padding: 3px;
     cursor: pointer;
+}
+
+/*midpart*/
+.midpart{
+    width: 100%;
+    height: 400px;
+}
+.similarproducts{
+    padding: 40px;
+}
+.similarproducts table ,td,tr{
+    border-collapse: collapse;
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+}
+.midpart img{
+    width: 100px;
+    height: 100px;
+}
+.price{
+    color: brown;
+    font-weight: bold;
+}
+.price img{
+    width: 10px;
+    height: 20px;
+}
+.desp img{
+    width: 20px;
+    height: 20px;
+}
+.similarproducts .btn{
+    width: 150px;
+    height: 30px;
+    background: goldenrod;
+    border: none;
 }

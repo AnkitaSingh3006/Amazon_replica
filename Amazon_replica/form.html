@@ -58,54 +58,85 @@
     </header>
     <div class="form">
         <form class="formcontainer">
-            <p class="address">Your Account > Your Address ><span class="highlight"> New Address</span></p><br>
-            <h3>Add a new address</h3><br>
-            <p class="addressdescription">Or pick up your packages at your convenience from our self-service locations.To add an Amazon Pickup
-                Point, click <a href="#">here.</a></p><br>
+            <div class="heading">
+                <p class="address">Your Account > Your Address ><span class="highlight"> New Address</span></p>
+            </div>
+            <div class="heading">
+                <h3>Add a new address</h3>
+            </div>
+            <div class="heading">
+                <p class="addressdescription">Or pick up your packages at your convenience from our self-service
+                    locations.To add an Amazon Pickup
+                    Point, click <a href="#">here.</a>
+                </p>
+            </div>
 
-             <label for="region">Country/Region</label><br>
-             <select name="region" id="country" class="select">
-                 <option value="India">India</option>
-             </select>   <br><br>
+            <div class="data">
+                <label for="region">Country/Region</label>
+                <select name="region" id="country" class="select">
+                    <option value="India">India</option>
+                </select>
+            </div>
 
-             <label for="Fname">Full Name</label><br>
-             <input type="text"><br><br>
+            <div class="data">
+                <label for="Fname">Full Name</label>
+                <input type="text">
+            </div>
 
-             <label for="number">Mobile Number</label><br>
-             <input type="text" placeholder="10 digit number without prefixes"  pattern="[0-9] {10}"><br><br>
-             <p class="addressdescription"> May be used to asset delivery </p><br>
+            <div class="data">
+                <label for="number">Mobile Number</label>
+                <input type="text" placeholder="10 digit number without prefixes" pattern="[0-9] {10}">
+                <p class="addressdescription"> May be used to asset delivery </p>
+            </div>
 
-             <label for="PIN">PIN Code</label><br>
-             <input type="text" placeholder="6 digits [0-9] PIN Code" pattern="[0-9] {10}"><br><br>
+            <div class="data">
+                <label for="PIN">PIN Code</label>
+                <input type="text" placeholder="6 digits [0-9] PIN Code" pattern="[0-9] {10}">
+            </div>
 
-             <label for="Address1">Flat, House no., Building, Company, Apartment</label><br>
-             <input type="text"><br><br>
+            <div class="data">
+                <label for="Address1">Flat, House no., Building, Company, Apartment</label>
+                <input type="text">
+            </div>
 
-             <label for="Address2">Area, Colony, Street, Sector, Village</label><br>
-             <input type="text"><br><br>
+            <div class="data">
+                <label for="Address2">Area, Colony, Street, Sector, Village</label>
+                <input type="text">
+            </div>
 
-             <label for="landmark">Landmark</label><br>
-             <input type="text" placeholder="E.g. Near AIIMS Flyover, Behind Regal Cinema, etc."><br><br>
+            <div class="data">
+                <label for="landmark">Landmark</label>
+                <input type="text" placeholder="E.g. Near AIIMS Flyover, Behind Regal Cinema, etc.">
+            </div>
 
-             <label for="city">Town/City</label><br>
-             <input type="text"><br><br>
+            <div class="data">
+                <label for="city">Town/City</label>
+                <input type="text">
+            </div>
 
-             <label for="state">State/Province/Region</label><br>
-             <select name="state" id="province" class="select">
-                 <option value="Select state">Select state</option>
-             </select><br><br>
+            <div class="data">
+                <label for="state">State/Province/Region</label>
+                <select name="state" id="province" class="select">
+                    <option value="Select state">Select state</option>
+                </select>
+            </div>
 
-             <h3>Add delivery instruction</h3><br>
-             <p class="addressdescription">Preferences are used to plan your delivery. However, shipments can sometimes arrive early or later than planned.</p><br>
-        
-             <label for="addresstype">Address Type</label><br>
-             <select name="addresstype" id="addresstype" class="select">
-                 <option value="Select state">Select an Address Type</option>
-             </select><br><br><br>
+            <div class="data">
+                <h3>Add delivery instruction</h3>
+                <p class="addressdescription">Preferences are used to plan your delivery. However, shipments can
+                    sometimes arrive early or later than planned.</p>
+            </div>
+
+            <div class="data">
+                <label for="addresstype">Address Type</label>
+                <select name="addresstype" id="addresstype" class="select">
+                    <option value="Select state">Select an Address Type</option>
+                </select>
+            </div>
 
             <button class="button">Add address</button>
 
-               </form>
+        </form>
     </div>
 
 </body>
