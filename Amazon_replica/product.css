@@ -9,11 +9,13 @@
     height: auto;
 }
 
-/*upperpart*/
+/*------------------------------------------------------upperpart------------------------------------*/
+
 .upperpart{
     width: 100%;
     height: 880px;
 }
+
 /* left part*/
 
 .leftpart{
@@ -51,6 +53,7 @@
     width: 80%;
     height: 93%;
 }
+
 /* center part*/
 
 .centerpart{
@@ -116,6 +119,7 @@
     font-size: small;
     color: rgb(0, 105, 210);
 }
+
 /*right part*/
 
 .rightpart{
@@ -173,7 +177,8 @@
     cursor: pointer;
 }
 
-/*midpart*/
+/*-----------------------------------------------midpart---------------------------------------------*/
+
 .midpart{
     width: 100%;
     height: 400px;

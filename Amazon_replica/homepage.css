@@ -127,7 +127,8 @@ a[target]{
     padding:10px;
 }
 .lang img{
-    width: 30px;
+    width: 25px;
+    padding-top: 10px;
 }
 .account{
     width: 120px;
@@ -229,11 +230,14 @@ a[target]{
 /* section part */
 .section{
     width: 100%;
-    height: 1115px;
+    height: auto;
     color: black;
-    position: relative;
-    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---------------------------------------------first part of section----------------------------------*/
+.carousel{
+    position: relative;
 }
 .carousel img{
     width: 100%;
@@ -243,16 +247,15 @@ a[target]{
     width: 100%;
     height: 410px;
     position: absolute;
-    bottom: 400px;
-    left: 0;
+    bottom:0;
     background-color:transparent;
 }
 .card-1stchild{
     width: 320px;
     height: 390px;
     float: left;
+    margin: 7px;
     text-align: center;
-    margin: 5px;
     background-color: white;
 }
 .grandchild1{
@@ -330,7 +333,7 @@ a[target]{
     width: 310px;
     height: 390px;
     float: left;
-    margin: 5px;
+    margin: 7px;
     background-color: white;
     text-align: center;
 }
@@ -373,17 +376,16 @@ a[target]{
     background-color: white;
     text-align: center;
 }
+
+/*-----------------------------------second part of section------------------------------------------*/
 .product{
     width: 100%;
-    height: 415px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: rgb(214, 214, 224);
+    height: auto;
+    background-color: rgb(224, 214, 223);
 }
 .card2{
     width: 100%;
-    height: 410px;
+    height: 420px;
     background: transparent;
     padding: 10px;
 }
@@ -392,6 +394,7 @@ a[target]{
     height: 390px;
     float: left;
     margin: 5px;
+
 }
 .card2child1 img{
     width: 100%;
@@ -412,6 +415,39 @@ a[target]{
     margin: 5px;
     background-color: white;
     text-align: center;
+}
+.card3{
+    width: 100%;
+    height: 330px;
+}
+.cardparent{
+    width: 97%;
+    height: 92%;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+}
+.cardheading span{
+    font-size:20px;
+    font-weight: bold;
+}
+.cardheading a[href]{
+    text-decoration: none;
+    font-size: small;
+}
+.cardchild{
+    width: 155px;
+    height: 250px;
+    float: left;
+}
+.cardchild img{
+    width: 80%px;
+    height: 80%px;
+    padding: 18px;
+}
+.card4{
+    width: 100%;
+    height: 330px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -452,25 +488,7 @@ a[target]{
     list-style-type: none;
     line-height: 20px;
 }
-.footer2-child1{
-    width: 25%;
-    height: 300px;
-    float: left;
-    padding: 50px;
-}
-.footer2-child2{
-    width: 25%;
-    height: 300px;
-    float: left;
-    padding: 50px;
-}
-.footer2-child3{
-    width: 25%;
-    height: 300px;
-    float: left;
-    padding: 50px;
-}
-.footer2-child4{
+.footer2-child{
     width: 25%;
     height: 300px;
     float: left;
@@ -558,37 +576,12 @@ a[target]{
     width:80%;
     height: 120px;
 }
-.footer4-1stchild{
+.footer4-child{
     width: 20%;
     height: 120px;
     float: left;
     padding: 5px;
 }
-.footer4-2ndchild{
-    width: 20%;
-    height: 120px;
-    float: left;
-    padding: 5px; 
-}
-.footer4-3rdchild{
-    width: 20%;
-    height: 120px;
-    float: left;
-    padding: 5px;
-}
-.footer4-4thchild{
-    width: 20%;
-    height: 120px;
-    float: left;
-    padding: 5px;
-}
-.footer4-5thchild{
-    width: 20%;
-    height: 120px;
-    float: left;
-    padding: 5px;
-}
-
 
 
 /*footer5*/
