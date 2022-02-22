@@ -20,7 +20,7 @@
 
 .leftpart{
     width: 400px;
-    height: 600px;
+    height: 650px;
     float:left;
     padding: 20px;
 }
@@ -34,24 +34,29 @@
     list-style: none;
     font-size: 8px;
     font-weight: bold;
-    line-height: 10px;
+    line-height: 15px;
     color: rgb(66, 73, 80);
 }
 .leftpart-1stchild ul img{
-    width: 100%;
-    height: 50px;
+    width: 80%;
+    height: 60px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.leftpart-1stchild ul img:hover{
+    opacity: 1;
 }
 .leftpart-2ndchild{
-    width: calc(100% - 95px);
-    height: 550px;
+    width: calc(100% - 80px);
+    height: 600px;
     float: right;
     font-size: small;
     text-align: center;
     color: rgb(66, 73, 80);
 }
 .leftpart-2ndchild img{
-    width: 80%;
-    height: 93%;
+    width: 100%;
+    height: 100%;
 }
 
 /* center part*/
@@ -213,4 +218,8 @@
     height: 30px;
     background: goldenrod;
     border: none;
+    opacity: 0.9;
+}
+.similarproducts .btn:hover{
+    opacity: 1;
 }

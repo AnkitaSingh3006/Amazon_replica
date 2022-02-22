@@ -14,17 +14,19 @@
         <div class="upperpart">
             <div class="leftpart">
                 <div class="leftpart-1stchild">
-                    <ul>
-                        <li><img src="img/samsung.jpg"></li>
-                        <li><img src="img/videopic-samsung.jpg"> 4 <br> VIDEOS</li>
-                        <li><img src="img/feature-samsung.jpg"></li>
-                        <li><img src="img/back img1.jpg"></li>
-                        <li><img src="img/back.jpg"></li>
-                        <li><img src="img/front.jpg"></li>
-                        <li><img src="img/diagonal.jpg"></li>
-                    </ul>
+                    <div class="small-images">
+                        <ul>
+                            <li><img src="img/mainimg.png" onclick="clicking(this)"></li>
+                            <li><img src="img/smallimg1.png" onclick="clicking(this)"></li>
+                            <li><img src="img/smallimg2.png" onclick="clicking(this)"></li>
+                            <li><img src="img/smallimg3.png" onclick="clicking(this)"></li>
+                            <li><img src="img/smallimg4.png" onclick="clicking(this)"></li>
+                            <li><img src="img/smallimg5.png" onclick="clicking(this)"></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="leftpart-2ndchild"><img src="img/samsung1.jpg"> <br> Roll over image to zoom in</div>
+                <div class="leftpart-2ndchild"><img src="img/mainimg.png" id="imagebox"> <br> Roll over image to zoom
+                    in</div>
             </div>
             <div class="centerpart">
                 <div class="description">
@@ -150,6 +152,12 @@
         </div>
     </div>
 
+    <script>
+        function clicking(smallImg) {
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src
+        }
+    </script>
 </body>
 
 </html>
