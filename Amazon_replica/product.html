@@ -14,14 +14,14 @@
         <div class="upperpart">
             <div class="leftpart">
                 <div class="leftpart-1stchild">
-                    <div class="small-images">
+                    <div class="small_images">
                         <ul>
-                            <li><img src="img/mainimg.png" onclick="clicking(this)"></li>
-                            <li><img src="img/smallimg1.png" onclick="clicking(this)"></li>
-                            <li><img src="img/smallimg2.png" onclick="clicking(this)"></li>
-                            <li><img src="img/smallimg3.png" onclick="clicking(this)"></li>
-                            <li><img src="img/smallimg4.png" onclick="clicking(this)"></li>
-                            <li><img src="img/smallimg5.png" onclick="clicking(this)"></li>
+                            <li><img src="img/mainimg.png" onmouseover="clicking(this)"></li>
+                            <li><img src="img/smallimg1.png" onmouseover="clicking(this)"></li>
+                            <li><img src="img/smallimg2.png" onmouseover="clicking(this)"></li>
+                            <li><img src="img/smallimg3.png" onmouseover="clicking(this)"></li>
+                            <li><img src="img/smallimg4.png" onmouseover="clicking(this)"></li>
+                            <li><img src="img/smallimg5.png" onmouseover="clicking(this)"></li>
                         </ul>
                     </div>
                 </div>
@@ -153,9 +153,9 @@
     </div>
 
     <script>
-        function clicking(smallImg) {
+        function clicking(small_images) {
             var fullImg = document.getElementById("imagebox");
-            fullImg.src = smallImg.src
+            fullImg.src = small_images.src
         }
     </script>
 </body>

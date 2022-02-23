@@ -9,6 +9,7 @@
         Shop Online for Mobiles, Books, Watches...<em>amazon.in</em></title>
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="homepage.css">
+    <script src="homepage.js"></script>
 </head>
 
 <body>
@@ -39,22 +40,32 @@
             </div>
         </div>
         <div class="lower-part">
-            <div class="left-lower-part"><a href="#" target="_self">&#9776 All</a></div>
+            <div class="left-lower-part">
+                <a href="#" target="_self" class="n" onclick="openNav()">&#9776 All</a>
+                <div class="sidenav" id="mySidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">menu1</a>
+                    <a href="#">menu2</a>
+                    <a href="#">menu3</a>
+                    <a href="#">menu4</a>
+                    <a href="#">menu5</a>
+                </div>
+            </div>
             <div class="mid-lower-part">
-                <a href="#" target="_self" class="mlp-seller">Best Sellers</a>
-                <a href="#" target="_self" class="mlp-mobiles">Mobiles</a>
-                <a href="#" target="_self" class="mlp-deals">Today's Deals</a>
-                <a href="#" target="_self" class="mlp-service">Customer Services</a>
-                <a href="#" target="_self" class="mlp-electronics">Electronics</a>
-                <a href="#" target="_self" class="mlp-books">Books</a>
-                <a href="#" target="_self" class="mlp-prime">Prime</a>
-                <a href="#" target="_self" class="mlp-fashion">Fashion</a>
-                <a href="#" target="_self" class="mlp-release">New Releases</a>
-                <a href="#" target="_self" class="mlp-home">Home & Kitchen</a>
-                <a href="#" target="_self" class="mlp-pay">Amazon Pay</a>
-                <a href="#" target="_self" class="mlp-computer">Computers</a>
-                <a href="#" target="_self" class="mlp-coupans">Coupans</a>
-                <a href="#" target="_self" class="mlp-toys">Toys & Games</a>
+                <a href="#" target="_self" class="nav_2">Best Sellers</a>
+                <a href="#" target="_self" class="nav_2">Mobiles</a>
+                <a href="#" target="_self" class="nav_2">Today's Deals</a>
+                <a href="#" target="_self" class="nav_2">Customer Services</a>
+                <a href="#" target="_self" class="nav_2">Electronics</a>
+                <a href="#" target="_self" class="nav_2">Books</a>
+                <a href="#" target="_self" class="nav_2">Prime</a>
+                <a href="#" target="_self" class="nav_2">Fashion</a>
+                <a href="#" target="_self" class="nav_2">New Releases</a>
+                <a href="#" target="_self" class="nav_2">Home & Kitchen</a>
+                <a href="#" target="_self" class="nav_2">Amazon Pay</a>
+                <a href="#" target="_self" class="nav_2">Computers</a>
+                <a href="#" target="_self" class="nav_2">Coupans</a>
+                <a href="#" target="_self" class="nav_2">Toys & Games</a>
             </div>
         </div>
     </header>
@@ -140,7 +151,8 @@
             </div>
             <div class="card3">
                 <div class="cardparent">
-                    <div class="cardheading"><span>Up tp 60% off|Handloom sarees</span><a href="#">&nbsp;&nbsp;Explore more</a></div>
+                    <div class="cardheading"><span>Up tp 60% off|Handloom sarees</span><a href="#">&nbsp;&nbsp;Explore
+                            more</a></div>
                     <div class="cardchild"><img src="img/saree1.jpg"></div>
                     <div class="cardchild"><img src="img/saree2.jpg"></div>
                     <div class="cardchild"><img src="img/saree3.jpg"></div>

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form page</title>
     <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
 </head>
 
 <body>
@@ -37,27 +38,27 @@
             </div>
         </div>
         <div class="lower-part">
-            <div class="left-lower-part"><a href="#" target="_self">&#9776 All</a></div>
+            <div class="left-lower-part"><a href="#" target="_self" class="n">&#9776 All</a></div>
             <div class="mid-lower-part">
-                <a href="#" target="_self" class="mlp-seller">Best Sellers</a>
-                <a href="#" target="_self" class="mlp-mobiles">Mobiles</a>
-                <a href="#" target="_self" class="mlp-deals">Today's Deals</a>
-                <a href="#" target="_self" class="mlp-service">Customer Services</a>
-                <a href="#" target="_self" class="mlp-electronics">Electronics</a>
-                <a href="#" target="_self" class="mlp-books">Books</a>
-                <a href="#" target="_self" class="mlp-prime">Prime</a>
-                <a href="#" target="_self" class="mlp-fashion">Fashion</a>
-                <a href="#" target="_self" class="mlp-release">New Releases</a>
-                <a href="#" target="_self" class="mlp-home">Home & Kitchen</a>
-                <a href="#" target="_self" class="mlp-pay">Amazon Pay</a>
-                <a href="#" target="_self" class="mlp-computer">Computers</a>
-                <a href="#" target="_self" class="mlp-coupans">Coupans</a>
-                <a href="#" target="_self" class="mlp-toys">Toys & Games</a>
+                <a href="#" target="_self" class="nav_2">Best Sellers</a>
+                <a href="#" target="_self" class="nav_2">Mobiles</a>
+                <a href="#" target="_self" class="nav_2">Today's Deals</a>
+                <a href="#" target="_self" class="nav_2">Customer Services</a>
+                <a href="#" target="_self" class="nav_2">Electronics</a>
+                <a href="#" target="_self" class="nav_2">Books</a>
+                <a href="#" target="_self" class="nav_2">Prime</a>
+                <a href="#" target="_self" class="nav_2">Fashion</a>
+                <a href="#" target="_self" class="nav_2">New Releases</a>
+                <a href="#" target="_self" class="nav_2">Home & Kitchen</a>
+                <a href="#" target="_self" class="nav_2">Amazon Pay</a>
+                <a href="#" target="_self" class="nav_2">Computers</a>
+                <a href="#" target="_self" class="nav_2">Coupans</a>
+                <a href="#" target="_self" class="nav_2">Toys & Games</a>
             </div>
         </div>
     </header>
     <div class="form">
-        <form class="formcontainer">
+        <form class="formcontainer" onsubmit="return validateForm()">
             <div class="heading">
                 <p class="address">Your Account > Your Address ><span class="highlight"> New Address</span></p>
             </div>
@@ -80,38 +81,38 @@
 
             <div class="data">
                 <label for="Fname">Full Name</label>
-                <input type="text">
+                <input type="text" id="fullname">
             </div>
 
             <div class="data">
                 <label for="number">Mobile Number</label>
-                <input type="text" placeholder="10 digit number without prefixes" pattern="[0-9] {10}">
+                <input type="text" placeholder="10 digit number without prefixes" id="number">
                 <p class="addressdescription"> May be used to asset delivery </p>
             </div>
 
             <div class="data">
                 <label for="PIN">PIN Code</label>
-                <input type="text" placeholder="6 digits [0-9] PIN Code" pattern="[0-9] {10}">
+                <input type="text" placeholder="6 digits [0-9] PIN Code" id="pincode">
             </div>
 
             <div class="data">
                 <label for="Address1">Flat, House no., Building, Company, Apartment</label>
-                <input type="text">
+                <input type="text" id="address1">
             </div>
 
             <div class="data">
                 <label for="Address2">Area, Colony, Street, Sector, Village</label>
-                <input type="text">
+                <input type="text" id="address2">
             </div>
 
             <div class="data">
                 <label for="landmark">Landmark</label>
-                <input type="text" placeholder="E.g. Near AIIMS Flyover, Behind Regal Cinema, etc.">
+                <input type="text" placeholder="E.g. Near AIIMS Flyover, Behind Regal Cinema, etc." id="landmark">
             </div>
 
             <div class="data">
                 <label for="city">Town/City</label>
-                <input type="text">
+                <input type="text" id="towncity">
             </div>
 
             <div class="data">
@@ -134,7 +135,7 @@
                 </select>
             </div>
 
-            <button class="button">Add address</button>
+            <button class="button" type="submit">Add address</button>
 
         </form>
     </div>
