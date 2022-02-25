@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form page</title>
     <link rel="stylesheet" href="form.css">
-    <script src="form.js"></script>
 </head>
 
 <body>
@@ -58,7 +57,7 @@
         </div>
     </header>
     <div class="form">
-        <form class="formcontainer" onsubmit="return validateForm()">
+        <form class="formcontainer">
             <div class="heading">
                 <p class="address">Your Account > Your Address ><span class="highlight"> New Address</span></p>
             </div>
@@ -135,10 +134,14 @@
                 </select>
             </div>
 
-            <button class="button" type="submit">Add address</button>
+            <button class="button" type="button" onsubmit="return validateForm()">Add address</button>
 
         </form>
     </div>
+
+
+    <script src="form.js"></script>
+
 
 </body>
 

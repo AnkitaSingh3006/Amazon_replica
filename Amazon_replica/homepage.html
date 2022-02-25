@@ -9,10 +9,12 @@
         Shop Online for Mobiles, Books, Watches...<em>amazon.in</em></title>
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="homepage.css">
-    <script src="homepage.js"></script>
 </head>
 
 <body>
+
+    <!------------------------------------------Header part------------------------------------------------------>
+
     <header class="header">
         <div class="upper-part">
             <div class="left-upper-part">
@@ -43,12 +45,37 @@
             <div class="left-lower-part">
                 <a href="#" target="_self" class="n" onclick="openNav()">&#9776 All</a>
                 <div class="sidenav" id="mySidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="#">menu1</a>
-                    <a href="#">menu2</a>
-                    <a href="#">menu3</a>
-                    <a href="#">menu4</a>
-                    <a href="#">menu5</a>
+                    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                    <h3>Hello,Sign in</h3>
+                    <h4>Trending</h4>
+                    <a href="#">Best Seller</a>
+                    <a href="#">New Releases</a>
+                    <a href="#">Movers and Shakers</a>
+                    <hr>
+                    <h4>Digital Content And Devices</h4>
+                    <a href="#">Echo & Alexa</a>
+                    <a href="#">Fire TV</a>
+                    <a href="#">Kindle E-Reader & eBooks</a>
+                    <a href="#">Amazon Audiobooks</a>
+                    <a href="#">Amazon Prime Video</a>
+                    <a href="#">Amazon Prime Music</a>
+                    <hr>
+                    <h4>Shop By Deapartment</h4>
+                    <a href="#">Mobile, Computers</a>
+                    <a href="#">TV, Appliances, Electronics</a>
+                    <a href="#">Men's Fashion</a>
+                    <a href="#">Women's Fashion</a>
+                    <hr>
+                    <h4>Program & Features</h4>
+                    <a href="#">Gift Cards & Mobile Recharges</a>
+                    <a href="#">Flight Tickets</a>
+                    <a href="#">#FoundItOnAmazon</a>
+                    <a href="#">Clearance store</a>
+                    <hr>
+                    <h4>Help & Setting</h4>
+                    <a href="#">Your Account</a>
+                    <a href="#">Customer Service</a>
+                    <a href="#">Sign In</a>
                 </div>
             </div>
             <div class="mid-lower-part">
@@ -69,6 +96,8 @@
             </div>
         </div>
     </header>
+
+    <!-------------------------------------------------Section part--------------------------------------------->
 
     <section class="section">
         <div class="carousel">
@@ -113,6 +142,13 @@
                 </div>
             </div>
         </div>
+        <!-- <div class="carousel"><img src="img/carousel1.jpg"></div>
+       <div class="carousel"><img src="img/carousel2.jpg"></div>
+       <div class="carousel"><img src="img/carousel3.jpg"></div>
+       <div class="carousel"><img src="img/carousel4.jpg"></div>
+       <div class="carousel"><img src="img/carousel6.jpg"></div>-->
+        <span class="arrow prev">&#10094;</span>
+        <span class="arrow next">&#10095;</span>
         <div class="product">
             <div class="card2">
                 <div class="card2child1"><img src="img/movie trailor.jpg"></div>
@@ -161,23 +197,33 @@
                     <div class="cardchild"><img src="img/saree6.jpg"></div>
                     <div class="cardchild"><img src="img/saree7.jpg"></div>
                     <div class="cardchild"><img src="img/saree8.jpg"></div>
+
+                    <a class="prevarrowcursor" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="nextarrowcursor" onclick="plusSlides(1)">&#10095;</a>
                 </div>
             </div>
             <div class="card4">
                 <div class="cardparent">
                     <div class="cardheading"><span>Essential food products|Amazon Launchpad</span></div>
-                    <div class="cardchild"><img src="img/food1.jpg"></div>
-                    <div class="cardchild"><img src="img/food2.jpg"></div>
-                    <div class="cardchild"><img src="img/food3.jpg"></div>
-                    <div class="cardchild"><img src="img/food4.jpg"></div>
-                    <div class="cardchild"><img src="img/food5.jpg"></div>
-                    <div class="cardchild"><img src="img/food6.jpg"></div>
-                    <div class="cardchild"><img src="img/food7.jpg"></div>
-                    <div class="cardchild"><img src="img/food8.jpg"></div>
+                     <div class="mySlides"><div class="cardchild"><img src="img/food1.jpg"></div></div>
+                     <div class="mySlides"><div class="cardchild"><img src="img/food2.jpg"></div></div>
+                     <div class="mySlides"><div class="cardchild"><img src="img/food3.jpg"></div></div>
+                     <div class="mySlides"><div class="cardchild"><img src="img/food4.jpg"></div></div>
+                     <div class="mySlides"><div class="cardchild"><img src="img/food5.jpg"></div></div>
+                     <div class="mySlides"><div class="cardchild"><img src="img/food6.jpg"></div></div>
+                     <div class="mySlides"><div class="cardchild"><img src="img/food7.jpg"></div></div>
+                     <div class="mySlides"><div class="cardchild"><img src="img/food8.jpg"></div></div>
+                     
+        
+                    <a class="prevarrowcursor" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="nextarrowcursor" onclick="plusSlides(1)">&#10095;</a>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <!---------------------------------------------------------Footer part--------------------------------------->
 
     <footer>
         <div class="footer1"><a href="#" target="_self">Back to top</a></div>
@@ -291,6 +337,10 @@
             </ul>
         </div>
     </footer>
+
+
+    <script src="homepage.js"></script>
+
 
 </body>
 

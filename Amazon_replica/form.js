@@ -1,9 +1,8 @@
-let fullname = document.getElementById("fullname");
-let number = document.getElementById("number");
+var fullname = document.getElementById("fullname");
 
 function validateForm(){
+ 
     if(fullname.value == ""){
         console.log("empty");
     }
-    return false;
 }

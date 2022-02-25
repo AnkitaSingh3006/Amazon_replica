@@ -7,12 +7,11 @@
 /*------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------*/
 /*upper part of header*/
-/*.header{
-    position: fixed;
+
+.header{
     width: 100%;
-    top: 0;
-    z-index: 20;
-}*/
+    height: auto;
+}
 
 .upper-part{
     width: 100%;
@@ -177,6 +176,46 @@ a[target]{
 .n:hover{
     border: 1px solid white;
 }
+.sidenav{
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: white;
+    overflow-x: hidden;
+    transition: all 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidenav a{
+    text-decoration: none;
+    color:grey;
+    line-height: 30px;
+    display: block;
+    padding: 5px 13px;
+    font-size: small;
+}
+.sidenav a:hover{
+    background-color: rgb(231, 227, 227);
+}
+.closebtn{
+    position: absolute;
+    right: 10px;
+    font-size: 35px !important;
+    color: white !important;
+}
+.sidenav h3{
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    background-color: red;
+    color: white;
+    background-color: #232f3e;
+}
+.sidenav h4{
+    padding: 12px;
+}
+
 /*mid lower part*/
 
 .mid-lower-part{
@@ -207,10 +246,30 @@ a[target]{
 /*---------------------------------------------first part of section----------------------------------*/
 .carousel{
     position: relative;
+    height: 750px;
+    width: 100%;
 }
 .carousel img{
     width: 100%;
-    height: 700px;
+    height: 750px;
+}
+.arrow {
+    width: 100px;
+    height: 45%;
+    cursor: pointer;
+    position: absolute;
+    top: 17%;
+    padding-top: 130px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background-color:transparent;
+}
+.arrow:active{
+    border: 1px solid white;
+}
+.next{
+    right: 0;
 }
 .card{
     width: 100%;
@@ -570,38 +629,34 @@ a[target]{
     display: inline;
     padding: 20px;
 }
-.sidenav{
-    height: 100%;
-    width: 250px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background: white;
-    overflow-x: hidden;
-    padding:60px ;
-    transition: all 0.5s;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.sidenav a{
-    text-decoration: none;
-    color:black;
-    display: block;
-    padding: 30px 0 30px 20px;
-}
-.sidenav a:hover{
-    color: rgb(88, 85, 85);
-}
-.closebtn{
+
+
+.prevarrowcursor{
     position: absolute;
-    top: -30px;
-    right: 10px;
-    font-size: 35px !important;
+    left: 35px;
+    margin-top: 90px;
+    height: 50px;
+    width: 20px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 25px;
 }
-
-
-
-
-
-
+.prevarrowcursor:hover{
+    background-color: rgba(245, 241, 241, 0.89);
+    color: #384b61;
+}
+.nextarrowcursor{
+    position: absolute;
+    right: 35px;
+    margin-top: 90px;
+    height: 50px;
+    width: 20px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 25px;
+}
+.nextarrowcursor:hover{
+    background-color: rgba(245, 241, 241, 0.89);
+    color: #384b61;
+}
 
