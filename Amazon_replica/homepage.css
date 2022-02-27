@@ -144,8 +144,6 @@ a[target]{
     float:left;
     font-size: small;
     padding: 10px;
-
-
 }
 .cart{
     width: 70px;
@@ -244,207 +242,245 @@ a[target]{
 }
 
 /*---------------------------------------------first part of section----------------------------------*/
-.carousel{
+/* Slideshow container */
+.firstpartofsection{
     position: relative;
-    height: 750px;
-    width: 100%;
 }
-.carousel img{
-    width: 100%;
-    height: 750px;
-}
-.arrow {
-    width: 100px;
-    height: 45%;
-    cursor: pointer;
-    position: absolute;
-    top: 17%;
-    padding-top: 130px;
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    background-color:transparent;
-}
-.arrow:active{
-    border: 1px solid white;
-}
-.next{
+.slideshow-container {
+    max-width: 100%;
+    height: 742px;
+    margin: auto;
+  }
+  .slideshow-container img{
+      width: 100%;
+      height: 740px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .slideshow-container .prev, .next {
+      width: 100px;
+      height: 45%;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      padding-top: 130px;
+      color: white;
+      text-align: center;
+      font-size: 40px;
+      background-color:transparent;
+  }
+  
+  
+  /* Position the "next button" to the right */
+  .next {
     right: 0;
-}
-.card{
-    width: 100%;
-    height: 410px;
-    position: absolute;
-    bottom:0;
-    background-color:transparent;
-}
-.card-1stchild{
-    width: 320px;
-    height: 390px;
-    float: left;
-    margin: 7px;
-    text-align: center;
-    background-color: white;
-}
-.grandchild1{
-    width: 100%;
-    height: 50px;
-    padding: 5px;
-}
-.grandchild2{
-    width: 100%;
-    height:calc(100% - 80px) ;
-}
-.a{
-    width: 100%;
-    height: 150px;
-    font-size: small;
-    line-height: 20px;
-}
-.aa{
-    width: 45%;
-    height: 120px;
-    float:left;
-    margin: 5px;
-}
-.aa img{
-    width: 100%;
-    height: 100%;
-}
-.ab{
-    width: 45%;
-    height: 120px;
-    float:left;
-    margin: 5px;
-}
-.ab img{
-    width: 100%;
-    height: 100%;
-}
-.b{
-    width: 100%;
-    height: 150px;
-    font-size: small;
-    line-height: 20px;
-}
-.ba{
-    width: 45%;
-    height: 120px;
-    float:left;
-    margin: 5px;
-}
-.ba img{
-    width: 100%;
-    height: 100%;
-}
-.bb{
-    width: 45%;
-    height: 120px;
-    float:left;
-    margin: 5px;
-}
-.bb img{
-    width: 100%;
-    height: 100%;
-}
-.grandchild3{
-    width: 100%;
-    height: 30px;
-    font-size: small;
-}
-.grandchild3 a{
-    text-decoration: none;
-    color: rgb(47, 143, 143);
-}
-
-.card-2ndchild{
-    width: 310px;
-    height: 390px;
-    float: left;
-    margin: 7px;
-    background-color: white;
-    text-align: center;
-}
-.grandchild-a{
-    width: 100%;
-    height: 50px;
-    padding: 5px;
-}
-.grandchild-b{
-    width: 100%;
-    height:calc(100% - 80px) ;
-}
-.grandchild-b img{
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-}
-.grandchild-c{
-    width: 100%;
-    height: 30px;
-    font-size: small;
-}
-.grandchild-c a{
-    text-decoration: none;
-    color:rgb(47, 143, 143) ;
-}
-.card-3rdchild{
-    width: 310px;
-    height: 390px;
-    float: left;
-    margin: 5px;
-    background-color: white;
-    text-align: center;
-}
-.card-4thchild{
-    width:calc(100% - 990px);
-    height: 390px;
-    float: left;
-    margin: 5px;
-    background-color: white;
-    text-align: center;
-}
-
-/*-----------------------------------second part of section------------------------------------------*/
-.product{
-    width: 100%;
-    height: auto;
-    background-color: rgb(224, 214, 223);
-}
-.card2{
-    width: 100%;
-    height: 420px;
-    background: transparent;
-    padding: 10px;
-}
-.card2child1{
-    width: calc(100% - 700px);
-    height: 390px;
-    float: left;
-    margin: 5px;
-
-}
-.card2child1 img{
-    width: 100%;
-    height: 100%;
-}
-.card2child2{
-    width: 320px;
-    height: 390px;
-    float: left;
-    margin: 5px;
-    background-color: white;
-    text-align: center;
-}
-.card2child3{
-    width: 340px;
-    height: 390px;
-    float: left;
-    margin: 5px;
-    background-color: white;
-    text-align: center;
-}
-.card3{
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .slideshow-container .prev:active, .next:active {
+      border: 2px solid white;
+  }
+  
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2.5s;
+    animation-name: fade;
+    animation-duration: 2.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  
+  .card{
+      width: 100%;
+      height: 410px;
+      position: absolute;
+      bottom:0;
+      background-color:transparent;
+  }
+  .card-1stchild{
+      width: 320px;
+      height: 390px;
+      float: left;
+      margin: 7px;
+      text-align: center;
+      background-color: white;
+  }
+  .grandchild1{
+      width: 100%;
+      height: 50px;
+      padding: 5px;
+  }
+  .grandchild2{
+      width: 100%;
+      height:calc(100% - 80px) ;
+  }
+  .a{
+      width: 100%;
+      height: 150px;
+      font-size: small;
+      line-height: 20px;
+  }
+  .aa{
+      width: 45%;
+      height: 120px;
+      float:left;
+      margin: 5px;
+  }
+  .aa img{
+      width: 100%;
+      height: 100%;
+  }
+  .ab{
+      width: 45%;
+      height: 120px;
+      float:left;
+      margin: 5px;
+  }
+  .ab img{
+      width: 100%;
+      height: 100%;
+  }
+  .b{
+      width: 100%;
+      height: 150px;
+      font-size: small;
+      line-height: 20px;
+  }
+  .ba{
+      width: 45%;
+      height: 120px;
+      float:left;
+      margin: 5px;
+  }
+  .ba img{
+      width: 100%;
+      height: 100%;
+  }
+  .bb{
+      width: 45%;
+      height: 120px;
+      float:left;
+      margin: 5px;
+  }
+  .bb img{
+      width: 100%;
+      height: 100%;
+  }
+  .grandchild3{
+      width: 100%;
+      height: 30px;
+      font-size: small;
+  }
+  .grandchild3 a{
+      text-decoration: none;
+      color: rgb(47, 143, 143);
+  }
+  
+  .card-2ndchild{
+      width: 310px;
+      height: 390px;
+      float: left;
+      margin: 7px;
+      background-color: white;
+      text-align: center;
+  }
+  .grandchild-a{
+      width: 100%;
+      height: 50px;
+      padding: 5px;
+  }
+  .grandchild-b{
+      width: 100%;
+      height:calc(100% - 80px) ;
+  }
+  .grandchild-b img{
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+  }
+  .grandchild-c{
+      width: 100%;
+      height: 30px;
+      font-size: small;
+  }
+  .grandchild-c a{
+      text-decoration: none;
+      color:rgb(47, 143, 143) ;
+  }
+  .card-3rdchild{
+      width: 310px;
+      height: 390px;
+      float: left;
+      margin: 5px;
+      background-color: white;
+      text-align: center;
+  }
+  .card-4thchild{
+      width:calc(100% - 990px);
+      height: 390px;
+      float: left;
+      margin: 5px;
+      background-color: white;
+      text-align: center;
+  }
+  
+  /*-----------------------------------second part of section------------------------------------------*/
+  .product{
+      width: 100%;
+      height: auto;
+      background-color: rgb(224, 214, 223);
+  }
+  .card2{
+      width: 100%;
+      height: 420px;
+      background: transparent;
+      padding: 10px;
+  }
+  .card2child1{
+      width: calc(100% - 700px);
+      height: 390px;
+      float: left;
+      margin: 5px;
+  
+  }
+  .card2child1 img{
+      width: 100%;
+      height: 100%;
+  }
+  .card2child2{
+      width: 320px;
+      height: 390px;
+      float: left;
+      margin: 5px;
+      background-color: white;
+      text-align: center;
+  }
+  .card2child3{
+      width: 340px;
+      height: 390px;
+      float: left;
+      margin: 5px;
+      background-color: white;
+      text-align: center;
+  }
+  
+/*.card3{
     width: 100%;
     height: 330px;
 }
@@ -476,7 +512,7 @@ a[target]{
 .card4{
     width: 100%;
     height: 330px;
-}
+}*/
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
