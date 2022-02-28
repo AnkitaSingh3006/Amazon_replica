@@ -42,40 +42,7 @@
         </div>
         <div class="lower-part">
             <div class="left-lower-part">
-                <a href="#" target="_self" class="n" onclick="openNav()">&#9776 All</a>
-                <div class="sidenav" id="mySidenav">
-                    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-                    <h3>Hello,Sign in</h3>
-                    <h4>Trending</h4>
-                    <a href="#">Best Seller</a>
-                    <a href="#">New Releases</a>
-                    <a href="#">Movers and Shakers</a>
-                    <hr>
-                    <h4>Digital Content And Devices</h4>
-                    <a href="#">Echo & Alexa</a>
-                    <a href="#">Fire TV</a>
-                    <a href="#">Kindle E-Reader & eBooks</a>
-                    <a href="#">Amazon Audiobooks</a>
-                    <a href="#">Amazon Prime Video</a>
-                    <a href="#">Amazon Prime Music</a>
-                    <hr>
-                    <h4>Shop By Deapartment</h4>
-                    <a href="#">Mobile, Computers</a>
-                    <a href="#">TV, Appliances, Electronics</a>
-                    <a href="#">Men's Fashion</a>
-                    <a href="#">Women's Fashion</a>
-                    <hr>
-                    <h4>Program & Features</h4>
-                    <a href="#">Gift Cards & Mobile Recharges</a>
-                    <a href="#">Flight Tickets</a>
-                    <a href="#">#FoundItOnAmazon</a>
-                    <a href="#">Clearance store</a>
-                    <hr>
-                    <h4>Help & Setting</h4>
-                    <a href="#">Your Account</a>
-                    <a href="#">Customer Service</a>
-                    <a href="#">Sign In</a>
-                </div>
+                <a href="#" target="_self" class="n">&#9776 All</a>
             </div>
             <div class="mid-lower-part">
                 <a href="#" target="_self" class="nav_2">Best Sellers</a>
@@ -122,38 +89,45 @@
 
             <div class="data">
                 <label for="Fname">Full Name</label>
-                <input type="text" id="fullname">
+                <input type="text" id="fullname" autocomplete="off">
+                <span id="name" style="color: red;"></span>
             </div>
 
             <div class="data">
                 <label for="number">Mobile Number</label>
-                <input type="text" placeholder="10 digit number without prefixes" id="number">
+                <input type="text" placeholder="10 digit number without prefixes" id="number" autocomplete="off">
                 <p class="addressdescription"> May be used to asset delivery </p>
+                <span id="mobilenumber" style="color: red;"></span>
             </div>
 
             <div class="data">
                 <label for="PIN">PIN Code</label>
-                <input type="text" placeholder="6 digits [0-9] PIN Code" id="pincode">
+                <input type="text" placeholder="6 digits [0-9] PIN Code" id="pincode" autocomplete="off">
+                <span id="pin" style="color: red;"></span>
             </div>
 
             <div class="data">
                 <label for="Address1">Flat, House no., Building, Company, Apartment</label>
-                <input type="text" id="address1">
+                <input type="text" id="flat" autocomplete="off">
+                <span id="houseno" style="color: red;"></span>
             </div>
 
             <div class="data">
                 <label for="Address2">Area, Colony, Street, Sector, Village</label>
-                <input type="text" id="address2">
+                <input type="text" id="area" autocomplete="off">
+                <span id="location" style="color: red;"></span>
             </div>
 
             <div class="data">
                 <label for="landmark">Landmark</label>
-                <input type="text" placeholder="E.g. Near AIIMS Flyover, Behind Regal Cinema, etc." id="landmark">
+                <input type="text" placeholder="E.g. Near AIIMS Flyover, Behind Regal Cinema, etc." autocomplete="off" id="landmark">
+                <span id="mark" style="color: red;"></span>
             </div>
 
             <div class="data">
                 <label for="city">Town/City</label>
-                <input type="text" id="towncity">
+                <input type="text" id="towncity" autocomplete="off">
+                <span id="town" style="color: red;"></span>
             </div>
 
             <div class="data">
