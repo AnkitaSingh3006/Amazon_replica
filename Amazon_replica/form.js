@@ -5,12 +5,12 @@ function validateForm(){
   var number = document.getElementById("number").value;
   var pincode = document.getElementById("pincode").value;
   var flatno = document.getElementById("flat").value;
-  var location = document.getElementById("area").value;
+  var locations = document.getElementById("area").value;
   var landmark = document.getElementById("landmark").value;
   var town = document.getElementById("towncity").value;
    
   //validation for full name
-  if(fullname.value == ""){
+  if(!fullname){
     document.getElementById('name').innerHTML = "Please enter your name";
   }
   if((fullname.length < 3) || (fullname.length > 20)){
@@ -24,7 +24,7 @@ function validateForm(){
  if(isNaN(number)){
    document.getElementById('mobilenumber').innerHTML = "Mobile number should contain only numeric value";
  }
- if(number.value == ""){
+ if(!number){
   document.getElementById('mobilenumber').innerHTML = "Please enter your number";
 } 
 if((number.length < 10) || (number.length > 10)){
@@ -33,33 +33,33 @@ if((number.length < 10) || (number.length > 10)){
 
 //validation for number
 if(isNaN(pincode)){
-  document.getElementById('pin').innerHTML = "pin number should contain only numeric value";
+  document.getElementById('pin').innerHTML = "Pin number should contain only numeric value";
 }
-if(pincode.value == ""){
+if(!pincode){
  document.getElementById('pin').innerHTML = "Please enter your pin code";
 } 
 if((pincode.length < 2) || (pincode.length > 10)){
- document.getElementById('pin').innerHTML = "not applicable";
+ document.getElementById('pin').innerHTML = "Not applicable";
 }
 
  //validation for house no
- if(flatno.value == ""){
+ if(!flatno){
   document.getElementById('houseno').innerHTML = "Please enter your Flat, House no., Building, Company, Apartment";
 }
 
 //validation for location
-if(location.value == ""){
-  document.getElementById('location').innerHTML = " Please enter your Area, Colony, Street, Sector, Village";
+if(!locations){
+  document.getElementById('loc').innerHTML = " Please enter your Area, Colony, Street, Sector, Village";
 }
 
 //validation for landmark
-if(landmark.value == ""){
+if(!landmark){
   document.getElementById('mark').innerHTML = "Please enter your landmark";
 }
 
 //validation for town
-if(town.value == ""){
-  document.getElementById('town').innerHTML = "Please enter your town";
+if(!town){
+  document.getElementById('towns').innerHTML = "Please enter your town";
 }
 
 }

@@ -11,7 +11,7 @@
 
 <body>
 
- 
+
     <!------------------------------------------Header part------------------------------------------------------>
 
     <header class="header">
@@ -62,9 +62,9 @@
             </div>
         </div>
     </header>
-    
-    
- <!-----------------------------------------------------form body section------------------------------------>
+
+
+    <!-----------------------------------------------------form body section------------------------------------>
     <div class="form">
         <form class="formcontainer">
             <div class="heading">
@@ -115,19 +115,20 @@
             <div class="data">
                 <label for="Address2">Area, Colony, Street, Sector, Village</label>
                 <input type="text" id="area" autocomplete="off">
-                <span id="location" style="color: red;"></span>
+                <span id="loc" style="color: red;"></span>
             </div>
 
             <div class="data">
                 <label for="landmark">Landmark</label>
-                <input type="text" placeholder="E.g. Near AIIMS Flyover, Behind Regal Cinema, etc." autocomplete="off" id="landmark">
+                <input type="text" placeholder="E.g. Near AIIMS Flyover, Behind Regal Cinema, etc." autocomplete="off"
+                    id="landmark">
                 <span id="mark" style="color: red;"></span>
             </div>
 
             <div class="data">
                 <label for="city">Town/City</label>
                 <input type="text" id="towncity" autocomplete="off">
-                <span id="town" style="color: red;"></span>
+                <span id="towns" style="color: red;"></span>
             </div>
 
             <div class="data">
@@ -150,7 +151,7 @@
                 </select>
             </div>
 
-            <button class="button" type="button" onsubmit="return validateForm()">Add address</button>
+            <button class="button" type="button" onclick = "return validateForm()">Add address</button>
 
         </form>
     </div>
