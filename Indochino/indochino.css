@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    font-size: 12px;
+    line-height: 0px;
+}
+.container-fluid{
+    border-bottom: 1px solid rgb(228, 226, 226) ;
+}
+.nav button{
+    font-size: 12px;
+    line-height: 0px;
+}
+.nav .dropdown-menu{
+    line-height: normal;
+}
+.btn{
+    border-radius: 0px;
+    font-size: 15px;
+}
