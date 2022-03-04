@@ -20,3 +20,8 @@
     border-radius: 0px;
     font-size: 15px;
 }
+@media (max-width: 658px) { 
+    .container-fluid .nav{
+        display: none;
+    }
+ }
